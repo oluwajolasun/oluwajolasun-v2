@@ -2,12 +2,63 @@ const ExperiencePage = () => {
   return (
     <div className="container mx-auto flex flex-col justify-between py-10 lg:flex-row">
       <div>
-        <h1 className="sticky top-[70px] -z-50 mb-4 text-3xl font-bold uppercase text-primary md:text-4xl">
+        <h1 className="text-primary sticky top-[70px] -z-50 mb-4 text-3xl font-bold uppercase md:text-4xl">
           Experience
         </h1>
       </div>
       <div className="lg:w-8/12">
         <ul className="timeline timeline-vertical timeline-compact timeline-snap-icon -z-50">
+          <li>
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">July 2025 – Present</time>
+              <div className="text-lg font-black">
+                Software Engineer – Full Stack Developer
+              </div>
+              <div className="text-lg font-black">Areto Labs</div>
+              <p>
+                Designed and deployed a microservice on GCP for detecting
+                porn-bots on TikTok and Instagram, leveraging a third-party
+                library for profile scraping and increasing detection catch rate
+                by 60%.
+              </p>
+              <p>
+                Trained and fine-tuned a Hugging Face model using internally
+                collected datasets, including scraped profile photos,
+                significantly boosting model accuracy and reducing false
+                positives.
+              </p>
+              <p>
+                Architected event-driven data ingestion systems using Google
+                Pub/Sub to stream topic and subscription messages between
+                microservices, leveraging Honeycomb traces to monitor, debug,
+                and optimize event flows.
+              </p>
+              <p>
+                Implemented and maintained DevOps pipelines using GCP, GitHub,
+                and GitHub Actions, improving deployment speed and reliability.
+              </p>
+              <p>
+                Collaborated in code reviews, architectural discussions, and
+                team strategy, while ensuring software quality with unit,
+                integration, and end-to-end testing.
+              </p>
+            </div>
+            <hr />
+          </li>
           <li>
             <div className="timeline-middle">
               <svg
@@ -30,20 +81,26 @@ const ExperiencePage = () => {
               </div>
               <div className="text-lg font-black">CANN Forecast Inc.</div>
               <p>
-                Managed databases, developed data pipelines, and performed
-                spatial analysis for water management projects.
+                Managed PostgreSQL databases, built ETL pipelines with Pandas,
+                and performed spatial analysis using QGIS and GeoPandas for over
+                10 water infrastructure projects.
               </p>
               <p>
-                Collaborated with domain experts to create user interfaces,
-                interactive maps, and data visualizations.
+                Collaborated with an agile team of domain experts to develop
+                React based interfaces, interactive maps using Leaflet.js and
+                Mapbox, and visualizations with D3.js, enhancing accessibility
+                and enabling data-driven decisions for 100+ users.
               </p>
               <p>
-                Developed an automated email attachment downloader and uploader
-                using Python; deployed via Jenkins for CI/CD.
+                Automated email attachment processing via Python (IMAP/SMTP),
+                cutting manual work by 90%, and integrated the solution with
+                Jenkins, resulting in faster deployment cycles and reduced
+                processing time by 4 hours per day.
               </p>
               <p>
-                Presented project updates and results to both technical and
-                non-technical audiences.
+                Engineered scalable backend systems in Django, exposing RESTful
+                APIs that supported dynamic front-end functionality, serving
+                over 500 concurrent users.
               </p>
             </div>
             <hr />
@@ -73,20 +130,22 @@ const ExperiencePage = () => {
               </div>
               <div className="text-lg font-black">HiFi Engineering Inc.</div>
               <p>
-                Developed and implemented machine learning algorithms for sensor
-                data analysis to detect pipeline leaks.
+                Designed and implemented ML models for sensor data analysis,
+                achieving 95% accuracy in simulated pipeline leak detection
+                using Keras and TensorFlow.
               </p>
               <p>
-                Collaborated with domain experts to ensure accurate modeling and
-                integration of ML solutions.
+                Reduced false positives by 15% through close collaboration with
+                domain experts during model tuning and optimization.
               </p>
               <p>
-                Achieved a 95% accuracy rate in simulated leak scenarios through
-                validation tests.
+                Improved system sensitivity by 20% via rigorous validation,
+                significantly enhancing real-world reliability.
               </p>
               <p>
-                Communicated project impact on safety and operational efficiency
-                to varied audiences.
+                Communicated technical results to both technical and
+                non-technical stakeholders, contributing to a projected 30%
+                reduction in operational risk.
               </p>
             </div>
             <hr />

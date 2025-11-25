@@ -1,19 +1,23 @@
 import { useEffect, useState } from "react";
 
 const ThemeToggler = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme"));
-  const themeToggle = () => {
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "autumn");
+  const handleToggle = () => {
     setTheme(theme === "autumn" ? "dracula" : "autumn");
   };
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme ); 
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
   return (
     <>
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
-        <input type="checkbox" onClick={themeToggle} checked={theme === "autumn"}/>
+        <input
+          type="checkbox"
+          onChange={handleToggle}
+          checked={theme === "autumn"}
+        />
 
         {/* moon icon */}
         <svg

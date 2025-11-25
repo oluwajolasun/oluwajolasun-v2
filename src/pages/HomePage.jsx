@@ -22,16 +22,17 @@ const HomePage = () => {
             />
           </motion.div>
           <div className="xl:w-7/12">
-            <p className="mb-4 text-5xl font-black text-primary md:text-6xl">
+            <p className="text-primary mb-4 text-5xl font-black md:text-6xl">
               Oluwajolasun Jaiyesimi
             </p>
-            <p className="mb-6 text-3xl font-black text-secondary">
+            <p className="text-secondary mb-6 text-3xl font-black">
               Fullstack Developer
             </p>
             <p className="mb-8 text-xl">
               I craft solutions that meet technical demands and deliver engaging
               user experiences, by seamlessly integrating front-end and back-end
-              technologies to create robust, scalable applications.
+              technologies to create robust, scalable applications with added
+              expertise in ML/AI powered applications and workflows.
             </p>
             <div className="mx-auto w-fit">
               <a

@@ -1,4 +1,4 @@
-# Personal Portfolio v2 
+# Personal Portfolio v2
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2135dfda-ba98-47fb-913e-b1933ed0404c/deploy-status)](https://app.netlify.com/sites/oluwajolasun-v2/deploys)
 

@@ -8,11 +8,11 @@ const Project = ({ projectsList }) => {
       {projects.map((project) => (
         <div
           key={project.objectId}
-          className="m-2 flex flex-col-reverse justify-between gap-3 rounded-lg p-4 transition hover:scale-105 hover:bg-base-200 xl:m-2 xl:flex-row xl:p-4"
+          className="hover:bg-base-200 m-2 flex flex-col-reverse justify-between gap-3 rounded-lg p-4 transition hover:scale-105 xl:m-2 xl:flex-row xl:p-4"
         >
           <div className="flex flex-col justify-center">
             <h1 className="mb-2 text-xl uppercase">
-              <b className="transition hover:text-primary">
+              <b className="hover:text-primary transition">
                 <a href={`${project.demoLink}`} target="_blank">
                   {project.projectTitle}
                 </a>
