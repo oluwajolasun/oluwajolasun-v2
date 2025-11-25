@@ -29,33 +29,36 @@ const ExperiencePage = () => {
                 Software Engineer – Full Stack Developer
               </div>
               <div className="text-lg font-black">Areto Labs</div>
-              <p>
-                Designed and deployed a microservice on GCP for detecting
-                porn-bots on TikTok and Instagram, leveraging a third-party
-                library for profile scraping and increasing detection catch rate
-                by 60%.
-              </p>
-              <p>
-                Trained and fine-tuned a Hugging Face model using internally
-                collected datasets, including scraped profile photos,
-                significantly boosting model accuracy and reducing false
-                positives.
-              </p>
-              <p>
-                Architected event-driven data ingestion systems using Google
-                Pub/Sub to stream topic and subscription messages between
-                microservices, leveraging Honeycomb traces to monitor, debug,
-                and optimize event flows.
-              </p>
-              <p>
-                Implemented and maintained DevOps pipelines using GCP, GitHub,
-                and GitHub Actions, improving deployment speed and reliability.
-              </p>
-              <p>
-                Collaborated in code reviews, architectural discussions, and
-                team strategy, while ensuring software quality with unit,
-                integration, and end-to-end testing.
-              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>
+                  Designed and deployed a microservice on GCP for detecting
+                  porn-bots on TikTok and Instagram, leveraging a third-party
+                  library for profile scraping and increasing detection catch
+                  rate by 60%.
+                </li>
+                <li>
+                  Trained and fine-tuned a Hugging Face model using internally
+                  collected datasets, including scraped profile photos,
+                  significantly boosting model accuracy and reducing false
+                  positives.
+                </li>
+                <li>
+                  Architected event-driven data ingestion systems using Google
+                  Pub/Sub to stream topic and subscription messages between
+                  microservices, leveraging Honeycomb traces to monitor, debug,
+                  and optimize event flows.
+                </li>
+                <li>
+                  Implemented and maintained DevOps pipelines using GCP, GitHub,
+                  and GitHub Actions, improving deployment speed and
+                  reliability.
+                </li>
+                <li>
+                  Collaborated in code reviews, architectural discussions, and
+                  team strategy, while ensuring software quality with unit,
+                  integration, and end-to-end testing.
+                </li>
+              </ul>
             </div>
             <hr />
           </li>
@@ -80,28 +83,30 @@ const ExperiencePage = () => {
                 Software Engineer – Full Stack Developer
               </div>
               <div className="text-lg font-black">CANN Forecast Inc.</div>
-              <p>
-                Managed PostgreSQL databases, built ETL pipelines with Pandas,
-                and performed spatial analysis using QGIS and GeoPandas for over
-                10 water infrastructure projects.
-              </p>
-              <p>
-                Collaborated with an agile team of domain experts to develop
-                React based interfaces, interactive maps using Leaflet.js and
-                Mapbox, and visualizations with D3.js, enhancing accessibility
-                and enabling data-driven decisions for 100+ users.
-              </p>
-              <p>
-                Automated email attachment processing via Python (IMAP/SMTP),
-                cutting manual work by 90%, and integrated the solution with
-                Jenkins, resulting in faster deployment cycles and reduced
-                processing time by 4 hours per day.
-              </p>
-              <p>
-                Engineered scalable backend systems in Django, exposing RESTful
-                APIs that supported dynamic front-end functionality, serving
-                over 500 concurrent users.
-              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>
+                  Managed PostgreSQL databases, built ETL pipelines with Pandas,
+                  and performed spatial analysis using QGIS and GeoPandas for
+                  over 10 water infrastructure projects.
+                </li>
+                <li>
+                  Collaborated with an agile team of domain experts to develop
+                  React based interfaces, interactive maps using Leaflet.js and
+                  Mapbox, and visualizations with D3.js, enhancing accessibility
+                  and enabling data-driven decisions for 100+ users.
+                </li>
+                <li>
+                  Automated email attachment processing via Python (IMAP/SMTP),
+                  cutting manual work by 90%, and integrated the solution with
+                  Jenkins, resulting in faster deployment cycles and reduced
+                  processing time by 4 hours per day.
+                </li>
+                <li>
+                  Engineered scalable backend systems in Django, exposing
+                  RESTful APIs that supported dynamic front-end functionality,
+                  serving over 500 concurrent users.
+                </li>
+              </ul>
             </div>
             <hr />
           </li>
@@ -129,24 +134,26 @@ const ExperiencePage = () => {
                 Software Engineer – Machine Learning
               </div>
               <div className="text-lg font-black">HiFi Engineering Inc.</div>
-              <p>
-                Designed and implemented ML models for sensor data analysis,
-                achieving 95% accuracy in simulated pipeline leak detection
-                using Keras and TensorFlow.
-              </p>
-              <p>
-                Reduced false positives by 15% through close collaboration with
-                domain experts during model tuning and optimization.
-              </p>
-              <p>
-                Improved system sensitivity by 20% via rigorous validation,
-                significantly enhancing real-world reliability.
-              </p>
-              <p>
-                Communicated technical results to both technical and
-                non-technical stakeholders, contributing to a projected 30%
-                reduction in operational risk.
-              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>
+                  Designed and implemented ML models for sensor data analysis,
+                  achieving 95% accuracy in simulated pipeline leak detection
+                  using Keras and TensorFlow.
+                </li>
+                <li>
+                  Reduced false positives by 15% through close collaboration
+                  with domain experts during model tuning and optimization.
+                </li>
+                <li>
+                  Improved system sensitivity by 20% via rigorous validation,
+                  significantly enhancing real-world reliability.
+                </li>
+                <li>
+                  Communicated technical results to both technical and
+                  non-technical stakeholders, contributing to a projected 30%
+                  reduction in operational risk.
+                </li>
+              </ul>
             </div>
             <hr />
           </li>
@@ -172,22 +179,24 @@ const ExperiencePage = () => {
               <div className="text-lg font-black">
                 Woodstock Electronics Limited
               </div>
-              <p>
-                Contributed to both frontend and backend development to enhance
-                platform functionality.
-              </p>
-              <p>
-                Developed interactive user interfaces using React and other
-                modern technologies.
-              </p>
-              <p>
-                Implemented backend components, working with RESTful APIs and
-                databases for seamless data exchange.
-              </p>
-              <p>
-                Proactively stayed updated with industry trends and continuously
-                enhanced technical skills.
-              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                <li>
+                  Contributed to both frontend and backend development to
+                  enhance platform functionality.
+                </li>
+                <li>
+                  Developed interactive user interfaces using React and other
+                  modern technologies.
+                </li>
+                <li>
+                  Implemented backend components, working with RESTful APIs and
+                  databases for seamless data exchange.
+                </li>
+                <li>
+                  Proactively stayed updated with industry trends and
+                  continuously enhanced technical skills.
+                </li>
+              </ul>
             </div>
             <hr />
           </li>
