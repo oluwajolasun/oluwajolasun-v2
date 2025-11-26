@@ -2,7 +2,7 @@ import { SkillIconsGCPDark } from "./SkillIconsGCPDark";
 import { SkillIconsAwsDark } from "./SkillIconsAwsDark";
 import { SkillIconsPythonDark } from "./SkillIconsPythonDark";
 import { SkillIconsJavascript } from "./SkillIconsJavascript";
-import { SkillIconsFlaskDark } from "./SkillIconsFlaskDark";
+import { SkillIconsFastAPI } from "./SkillIconsFastAPI";
 import { SkillIconsExpressjsDark } from "./SkillIconsExpressjsDark";
 import { SkillIconsGit } from "./SkillIconsGit";
 import { SkillIconsGithubDark } from "./SkillIconsGithubDark";
@@ -29,7 +29,7 @@ const svg_skills = [
     { name: "AWS", icon: SkillIconsAwsDark },
     { name: "Python", icon: SkillIconsPythonDark },
     { name: "JavaScript", icon: SkillIconsJavascript },
-    { name: "Flask", icon: SkillIconsFlaskDark },
+    { name: "FastAPI", icon: SkillIconsFastAPI },
     { name: "Express.js", icon: SkillIconsExpressjsDark },
     { name: "Git", icon: SkillIconsGit },
     { name: "GitHub", icon: SkillIconsGithubDark },
