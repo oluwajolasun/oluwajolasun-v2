@@ -34,6 +34,7 @@ const Skills = ({ active, setActive, colIndex, rowIndex, x, y }) => {
 
   return (
     <motion.div
+      id="draggable-svg"
       drag
       dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
       dragTransition={{ bounceStiffness: 500, bounceDamping: 20 }}
