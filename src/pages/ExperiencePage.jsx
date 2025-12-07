@@ -2,7 +2,7 @@ const ExperiencePage = () => {
   return (
     <div className="container mx-auto flex flex-col justify-between py-10 lg:flex-row">
       <div>
-        <h1 className="text-primary sticky top-[70px] -z-50 mb-4 text-3xl font-bold uppercase md:text-4xl">
+        <h1 className="sticky top-[70px] -z-50 mb-4 text-3xl font-bold uppercase text-primary md:text-4xl">
           Experience
         </h1>
       </div>
@@ -78,7 +78,9 @@ const ExperiencePage = () => {
               </svg>
             </div>
             <div className="timeline-end mb-10">
-              <time className="font-mono italic">September 2023 – Present</time>
+              <time className="font-mono italic">
+                September 2023 – September 2024
+              </time>
               <div className="text-lg font-black">
                 Software Engineer – Full Stack Developer
               </div>
